@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9745655E1DDCD818002ABDF8 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9745655D1DDCD818002ABDF8 /* Icon-120.png */; };
 		F49E735C15ACCF46009C8E84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E735B15ACCF46009C8E84 /* QuartzCore.framework */; };
 		F49E735E15ACCF46009C8E84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E735D15ACCF46009C8E84 /* OpenGLES.framework */; };
 		F49E736015ACCF46009C8E84 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E735F15ACCF46009C8E84 /* OpenAL.framework */; };
@@ -118,7 +119,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F49E735715ACCF46009C8E84 /* tweejump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweejump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9745655D1DDCD818002ABDF8 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "Resources/Icon-120.png"; sourceTree = "<group>"; };
+		F49E735715ACCF46009C8E84 /* tweejump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = tweejump.app; path = birdjump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49E735B15ACCF46009C8E84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F49E735D15ACCF46009C8E84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F49E735F15ACCF46009C8E84 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -409,6 +411,7 @@
 				F49E736D15ACCF46009C8E84 /* Default.png */,
 				F49E736F15ACCF46009C8E84 /* fps_images.png */,
 				F49E737115ACCF47009C8E84 /* Icon-72.png */,
+				9745655D1DDCD818002ABDF8 /* Icon-120.png */,
 				F49E737315ACCF47009C8E84 /* Icon-Small-50.png */,
 				F49E737515ACCF47009C8E84 /* Icon-Small.png */,
 				F49E737715ACCF47009C8E84 /* Icon-Small@2x.png */,
@@ -698,9 +701,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F49E735615ACCF46009C8E84 /* tweejump */ = {
+		F49E735615ACCF46009C8E84 /* birdjump */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F49E74C915ACCF4A009C8E84 /* Build configuration list for PBXNativeTarget "tweejump" */;
+			buildConfigurationList = F49E74C915ACCF4A009C8E84 /* Build configuration list for PBXNativeTarget "birdjump" */;
 			buildPhases = (
 				F49E735315ACCF46009C8E84 /* Sources */,
 				F49E735415ACCF46009C8E84 /* Frameworks */,
@@ -710,7 +713,7 @@
 			);
 			dependencies = (
 			);
-			name = tweejump;
+			name = birdjump;
 			productName = tweejump;
 			productReference = F49E735715ACCF46009C8E84 /* tweejump.app */;
 			productType = "com.apple.product-type.application";
@@ -721,7 +724,7 @@
 		F49E734E15ACCF46009C8E84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Symetrix;
 				TargetAttributes = {
 					F49E735615ACCF46009C8E84 = {
@@ -729,7 +732,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F49E735115ACCF46009C8E84 /* Build configuration list for PBXProject "tweejump" */;
+			buildConfigurationList = F49E735115ACCF46009C8E84 /* Build configuration list for PBXProject "birdjump" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -741,7 +744,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F49E735615ACCF46009C8E84 /* tweejump */,
+				F49E735615ACCF46009C8E84 /* birdjump */,
 			);
 		};
 /* End PBXProject section */
@@ -763,6 +766,7 @@
 				F4D0CBE015ACD027007C74DF /* bitmapFont.png in Resources */,
 				F4D0CBE115ACD027007C74DF /* changePlayerButton.png in Resources */,
 				F4D0CBE215ACD027007C74DF /* playAgainButton.png in Resources */,
+				9745655E1DDCD818002ABDF8 /* Icon-120.png in Resources */,
 				F4D0CBE315ACD027007C74DF /* sprites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -883,7 +887,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -899,7 +903,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
@@ -920,7 +924,7 @@
 				INFOPLIST_FILE = tweejump/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iplayful.tweejump;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.tweejump.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -940,7 +944,7 @@
 				INFOPLIST_FILE = tweejump/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iplayful.tweejump;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.tweejump.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -950,7 +954,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F49E735115ACCF46009C8E84 /* Build configuration list for PBXProject "tweejump" */ = {
+		F49E735115ACCF46009C8E84 /* Build configuration list for PBXProject "birdjump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F49E74C715ACCF4A009C8E84 /* Debug */,
@@ -959,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F49E74C915ACCF4A009C8E84 /* Build configuration list for PBXNativeTarget "tweejump" */ = {
+		F49E74C915ACCF4A009C8E84 /* Build configuration list for PBXNativeTarget "birdjump" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F49E74CA15ACCF4A009C8E84 /* Debug */,
