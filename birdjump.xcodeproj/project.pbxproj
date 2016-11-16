@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9745655E1DDCD818002ABDF8 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9745655D1DDCD818002ABDF8 /* Icon-120.png */; };
+		974565661DDCE1CD002ABDF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 974565651DDCE1CD002ABDF8 /* Default-568h@2x.png */; };
 		F49E735C15ACCF46009C8E84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E735B15ACCF46009C8E84 /* QuartzCore.framework */; };
 		F49E735E15ACCF46009C8E84 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E735D15ACCF46009C8E84 /* OpenGLES.framework */; };
 		F49E736015ACCF46009C8E84 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F49E735F15ACCF46009C8E84 /* OpenAL.framework */; };
@@ -120,6 +121,7 @@
 
 /* Begin PBXFileReference section */
 		9745655D1DDCD818002ABDF8 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "Resources/Icon-120.png"; sourceTree = "<group>"; };
+		974565651DDCE1CD002ABDF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F49E735715ACCF46009C8E84 /* tweejump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = tweejump.app; path = birdjump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49E735B15ACCF46009C8E84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F49E735D15ACCF46009C8E84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -358,6 +360,7 @@
 		F49E734C15ACCF46009C8E84 = {
 			isa = PBXGroup;
 			children = (
+				974565651DDCE1CD002ABDF8 /* Default-568h@2x.png */,
 				F49E736B15ACCF46009C8E84 /* tweejump */,
 				F49E735A15ACCF46009C8E84 /* Frameworks */,
 				F49E735815ACCF46009C8E84 /* Products */,
@@ -762,6 +765,7 @@
 				F49E737815ACCF47009C8E84 /* Icon-Small@2x.png in Resources */,
 				F49E737A15ACCF47009C8E84 /* Icon.png in Resources */,
 				F49E737F15ACCF47009C8E84 /* iTunesArtwork in Resources */,
+				974565661DDCE1CD002ABDF8 /* Default-568h@2x.png in Resources */,
 				F4D0CBDF15ACD027007C74DF /* bitmapFont.fnt in Resources */,
 				F4D0CBE015ACD027007C74DF /* bitmapFont.png in Resources */,
 				F4D0CBE115ACD027007C74DF /* changePlayerButton.png in Resources */,
