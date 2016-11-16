@@ -104,7 +104,7 @@
 	currentPlayer = nil;
 	currentPlayer = [defaults objectForKey:@"player"];
 	if(!currentPlayer) {
-		currentPlayer = @"anonymous";
+		currentPlayer = @"You";
 	}
 
 //	NSLog(@"currentPlayer = %@",currentPlayer);
@@ -121,16 +121,16 @@
 	[highscores removeAllObjects];
 #endif
 	if([highscores count] == 0) {
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:1000000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:750000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:500000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:250000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:100000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:50000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:20000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:10000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:5000],nil]];
-		[highscores addObject:[NSArray arrayWithObjects:@"tweejump",[NSNumber numberWithInt:1000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:1000000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:750000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:500000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:250000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:100000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:50000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:20000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:10000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:5000],nil]];
+		[highscores addObject:[NSArray arrayWithObjects:@"tweedump",[NSNumber numberWithInt:1000],nil]];
 	}
 #ifdef RESET_DEFAULTS	
 	[self saveHighscores];
