@@ -21,7 +21,7 @@
 	CCSpriteBatchNode *batchNode = [CCSpriteBatchNode batchNodeWithFile:@"sprites.png" capacity:10];
 	[self addChild:batchNode z:-1 tag:kSpriteManager];
 
-	CCSprite *background = [CCSprite spriteWithTexture:[batchNode texture] rect:CGRectMake(0,0,320,480)];
+	CCSprite *background = [CCSprite spriteWithTexture:[batchNode texture] rect:CGRectMake(0,0,320,568)];
 	[batchNode addChild:background];
 	background.position = CGPointMake(160,240);
 
