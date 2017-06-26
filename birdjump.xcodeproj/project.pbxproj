@@ -122,7 +122,7 @@
 /* Begin PBXFileReference section */
 		9745655D1DDCD818002ABDF8 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-120.png"; path = "Resources/Icon-120.png"; sourceTree = "<group>"; };
 		974565651DDCE1CD002ABDF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F49E735715ACCF46009C8E84 /* tweejump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = tweejump.app; path = birdjump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49E735715ACCF46009C8E84 /* birdjump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = birdjump.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49E735B15ACCF46009C8E84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F49E735D15ACCF46009C8E84 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		F49E735F15ACCF46009C8E84 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
@@ -370,7 +370,7 @@
 		F49E735815ACCF46009C8E84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F49E735715ACCF46009C8E84 /* tweejump.app */,
+				F49E735715ACCF46009C8E84 /* birdjump.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -718,7 +718,7 @@
 			);
 			name = birdjump;
 			productName = tweejump;
-			productReference = F49E735715ACCF46009C8E84 /* tweejump.app */;
+			productReference = F49E735715ACCF46009C8E84 /* birdjump.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -731,7 +731,7 @@
 				ORGANIZATIONNAME = Symetrix;
 				TargetAttributes = {
 					F49E735615ACCF46009C8E84 = {
-						DevelopmentTeam = JQNK74493B;
+						DevelopmentTeam = 4BLWLFDFU8;
 					};
 				};
 			};
@@ -919,6 +919,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = tweejump/Prefix.pch;
@@ -928,7 +929,7 @@
 				INFOPLIST_FILE = tweejump/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.tweejump.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.newyork.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -940,6 +941,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 4BLWLFDFU8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = tweejump/Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
@@ -948,7 +950,7 @@
 				INFOPLIST_FILE = tweejump/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-lz";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.tweejump.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gamming.newyork.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
